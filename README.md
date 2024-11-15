@@ -1,4 +1,5 @@
 # SR-FLIPFLOP-USING-CASE
+Name:Nandhana.R Reg No:212223040124
 
 **AIM:**
 
@@ -34,15 +35,39 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
+
+1.Define Module : Define a Verilog module for SR flip-flop with inputs (S,R) and outputs (Q,Q_bar).
+
+2.Declare Inputs and Outputs : Declare input and output ports for the module.
+
+3.Implement Flip-Flop Logic: Write Verilog code to implement the SR flip-flop logic based on its functional table.
+
+4.Simulate Using Testbench: Write a Verilog testbench to simulate the behavior of the SR flip-flop under different input conditions.
+
+5.Apply Input Stimuli: In the testbench, apply various combinations of input stimuli (S, R) to cover all possible input states.
+
+6.Verify Output Behavior: Verify that the output behavior of the SR flip-flop matches the expected behavior defined by its functional table.
+
+7.Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
+
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+![WhatsApp Image 2024-11-15 at 13 19 24_ab72fa83](https://github.com/user-attachments/assets/5e7b1cbc-8d34-4a36-8008-d551326ea780)
+
 
 **RTL LOGIC FOR FLIPFLOPS**
+![image](https://github.com/user-attachments/assets/d26a5820-8c87-4fcd-9b94-845dfd64094d)
+
+
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![image](https://github.com/user-attachments/assets/bb165689-f69a-45f9-918f-bae2f14c767c)
+
 
 **RESULTS**
+
+Thus the program to implement a SR flipflop using verilog and validating their functionality using their functional tables is successfully completed.
+
